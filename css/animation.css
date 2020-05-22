@@ -1,0 +1,474 @@
+/*
+The CSS export should solely be used as a reference.
+For a more detailed animation export the JSON file should be used.
+*/
+#Group_22 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Group_22__x__1 7000ms 0ms linear forwards;
+}
+
+@keyframes Group_22__x__1 {
+    from {
+        left: 645px;
+    }
+
+    to {
+        left: 210px;
+    }
+}
+
+#Ellipse_49 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_49__opacity__1 600ms 0ms linear forwards, Ellipse_49__opacity__2 200ms 600ms linear forwards;
+}
+
+@keyframes Ellipse_49__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_49__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_89 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_89__opacity__1 1000ms 0ms linear forwards, Ellipse_89__opacity__2 200ms 1000ms linear forwards;
+}
+
+@keyframes Ellipse_89__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_89__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_90 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_90__opacity__1 1300ms 0ms linear forwards, Ellipse_90__opacity__2 200ms 1300ms linear forwards;
+}
+
+@keyframes Ellipse_90__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_90__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_91 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_91__opacity__1 1600ms 0ms linear forwards, Ellipse_91__opacity__2 212ms 1600ms linear forwards;
+}
+
+@keyframes Ellipse_91__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_91__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_92 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_92__opacity__1 2000ms 0ms linear forwards, Ellipse_92__opacity__2 200ms 2000ms linear forwards;
+}
+
+@keyframes Ellipse_92__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_92__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_93 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_93__opacity__1 2300ms 0ms linear forwards, Ellipse_93__opacity__2 200ms 2300ms linear forwards;
+}
+
+@keyframes Ellipse_93__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_93__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_94 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_94__opacity__1 2700ms 0ms linear forwards, Ellipse_94__opacity__2 200ms 2700ms linear forwards;
+}
+
+@keyframes Ellipse_94__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_94__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_95 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_95__opacity__1 3000ms 0ms linear forwards, Ellipse_95__opacity__2 200ms 3000ms linear forwards;
+}
+
+@keyframes Ellipse_95__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_95__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_96 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_96__opacity__1 3300ms 0ms linear forwards, Ellipse_96__opacity__2 200ms 3300ms linear forwards;
+}
+
+@keyframes Ellipse_96__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_96__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_97 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_97__opacity__1 3700ms 0ms linear forwards, Ellipse_97__opacity__2 200ms 3700ms linear forwards;
+}
+
+@keyframes Ellipse_97__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_97__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_98 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_98__opacity__1 4000ms 0ms linear forwards, Ellipse_98__opacity__2 200ms 4000ms linear forwards;
+}
+
+@keyframes Ellipse_98__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_98__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_99 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_99__opacity__1 4400ms 0ms linear forwards, Ellipse_99__opacity__2 200ms 4400ms linear forwards;
+}
+
+@keyframes Ellipse_99__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_99__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_100 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_100__opacity__1 4700ms 0ms linear forwards, Ellipse_100__opacity__2 200ms 4700ms linear forwards;
+}
+
+@keyframes Ellipse_100__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_100__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_101 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_101__opacity__1 5000ms 0ms linear forwards, Ellipse_101__opacity__2 200ms 5000ms linear forwards;
+}
+
+@keyframes Ellipse_101__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_101__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_102 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_102__opacity__1 5400ms 0ms linear forwards, Ellipse_102__opacity__2 200ms 5400ms linear forwards;
+}
+
+@keyframes Ellipse_102__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_102__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_103 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_103__opacity__1 5700ms 0ms linear forwards, Ellipse_103__opacity__2 200ms 5700ms linear forwards;
+}
+
+@keyframes Ellipse_103__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_103__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_104 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_104__opacity__1 6038ms 0ms linear forwards, Ellipse_104__opacity__2 179ms 6038ms linear forwards;
+}
+
+@keyframes Ellipse_104__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_104__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_105 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_105__opacity__1 6400ms 0ms linear forwards, Ellipse_105__opacity__2 200ms 6400ms linear forwards;
+}
+
+@keyframes Ellipse_105__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_105__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#Ellipse_88 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_88__opacity__1 300ms 0ms linear forwards, Ellipse_88__opacity__2 205ms 300ms linear forwards;
+}
+
+@keyframes Ellipse_88__opacity__1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Ellipse_88__opacity__2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

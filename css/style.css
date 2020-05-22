@@ -1,0 +1,1946 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  background: #F9F9F9;
+  overflow-x: hidden;
+}
+
+.title {
+  font-size: 2.85vw;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.subtitle {
+  font-size: 1.8vw;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 1.7;
+}
+
+.btn {
+  border: 1px solid #2F69B2;
+  color: #2F69B2;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 1.1vw;
+  padding: 0.75vw 1.9vw;
+  margin-top: 4vw;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.text {
+  color: #2F69B2;
+}
+
+.description {
+  font-size: 1.02vw;
+  line-height: 1.35vw;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section {
+  padding-top: 80px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  z-index: 99999;
+  font-weight: 600;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+.header__scroll {
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.nav__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 213px;
+}
+
+.nav__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 820px;
+  margin-bottom: 0.4rem;
+}
+
+.top-menu {
+  text-decoration: none;
+  color: #707070;
+}
+
+.bottom-menu {
+  text-transform: uppercase;
+  color: #2F69B2;
+  text-decoration: none;
+}
+
+.hands__row {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.hands__bootle {
+  width: 23vw;
+  margin-left: 0;
+  margin-top: 1.2rem;
+}
+
+.hands__img {
+  width: 25vw;
+  margin-top: 12vw;
+  margin-left: 0;
+}
+
+.hands__title {
+  letter-spacing: 0.02em;
+  color: #2F69B2;
+  width: 35.8vw;
+}
+
+.hands__description {
+  max-width: 25vw;
+  margin-top: 2.5rem;
+  line-height: 1.45;
+}
+
+.hands__subtitle {
+  margin-top: -1.2rem;
+}
+
+.hands__subtitle--next {
+  margin-top: 2.1rem;
+  max-width: 30vw;
+  line-height: 1.7;
+}
+
+.hands__btn {
+  margin-top: 4vw;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.hands__btn:hover {
+  color: #F9F9F9;
+  background-color: #2F69B2;
+}
+
+.gif {
+  margin-top: -8vw;
+  margin-left: 18vw;
+  width: 56vw;
+}
+
+.home-and-office__bootle {
+  width: 15vw;
+  margin-left: 7vw;
+  margin-top: -0.6rem;
+}
+
+.home-and-office__img {
+  max-width: 25vw;
+  margin-top: 13.5vw;
+  margin-left: -1vw;
+}
+
+.home-and-office__bootle {
+  width: 21vw;
+  margin-left: -0.5vw;
+  margin-top: 0;
+}
+
+.home-and-office__title {
+  max-width: 31vw;
+  letter-spacing: 0.02em;
+  margin-left: 9vw;
+  line-height: 1.4;
+}
+
+.home-and-office__description {
+  line-height: 1.45;
+  max-width: 28vw;
+  margin-top: 2.5rem;
+  margin-left: 9vw;
+}
+
+.home-and-office__subtitle {
+  margin-top: 0;
+  margin-left: 9vw;
+  max-width: 38vw;
+  line-height: 1.6;
+}
+
+.home-and-office__btn {
+  margin-left: 9vw;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.home-and-office__btn:hover {
+  color: #F9F9F9;
+  background-color: #2F69B2;
+}
+
+.product-home__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product-home__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 7rem;
+}
+
+.product-home__title {
+  color: #2F69B2;
+  letter-spacing: 0.02em;
+}
+
+.product-home__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-home__left-row {
+  margin-top: -10vw;
+}
+
+.product-home__left-card::before {
+  position: absolute;
+  content: '';
+  height: 35.5vw;
+  width: 0.08vw;
+  background-color: rgba(47, 105, 178, 0.5);
+  margin-top: 10vw;
+  right: 50%;
+}
+
+.product-home__right {
+  margin-left: 6vw;
+}
+
+.product-home__bottle {
+  max-width: 25vw;
+  margin-left: -5vw;
+  margin-top: 2rem;
+}
+
+.product-home__bottle--home-500 {
+  max-width: 17vw;
+  margin-top: -2vw;
+  margin-right: 4vw;
+}
+
+.product-home__bottle--home-1000 {
+  max-width: 18vw;
+  margin-top: -8vw;
+  margin-left: -1vw;
+  margin-right: 4vw;
+}
+
+.product-home__bottle--home-5000 {
+  max-width: 24vw;
+  margin-right: 4vw;
+}
+
+.product-home__bottle-cap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4.8vw;
+}
+
+.product-home__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 3vw;
+}
+
+.home-card__volume {
+  margin-left: 7vw;
+  color: #C3104A;
+}
+
+.home-card__text {
+  margin-top: -1.3vw;
+  margin-left: 2.5vw;
+}
+
+.home-card__text-5000 {
+  margin-top: 5vw;
+}
+
+.home-card__text--left {
+  margin-top: -1.3vw;
+}
+
+.home-card__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30vw;
+  margin-top: 4vw;
+}
+
+.home-card__substance {
+  color: rgba(48, 103, 182, 0.5);
+  font-size: 1vw;
+  margin-top: -0.2vw;
+  font-weight: 600;
+}
+
+.home-card__subtitle {
+  color: #2F69B2;
+  font-size: 1vw;
+  max-width: 20vw;
+  margin-top: 1.6vw;
+  line-height: 1.4;
+}
+
+.home-card__description {
+  font-size: 1vw;
+  margin-top: 1.4vw;
+  max-width: 33vw;
+  line-height: 1.4;
+  color: #707070;
+}
+
+.home-card__title {
+  margin-top: 1vw;
+  color: #2F69B2;
+  font-size: 1.4vw;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.home-card__btn {
+  padding: 0.6vw 2.1vw;
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: #2F69B2;
+}
+
+.btn-row {
+  margin-top: -1.9vw;
+  margin-bottom: 15vw;
+}
+
+.medical__text {
+  color: #4F93AD;
+}
+
+.medical__row {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.medical__bootle {
+  width: 15vw;
+  margin-left: 5.5vw;
+  margin-top: 2.5vw;
+}
+
+.medical__img {
+  max-width: 24.5vw;
+  margin-top: 13.5vw;
+  margin-left: -21vw;
+}
+
+.medical__title {
+  width: 55vw;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+.medical__description {
+  max-width: 25vw;
+  margin-top: 2.5rem;
+  line-height: 1.45;
+  max-width: 29vw;
+  margin-top: 2.5rem;
+}
+
+.medical__subtitle {
+  max-width: 30vw;
+  max-width: 30vw;
+  line-height: 1.6;
+}
+
+.medical__btn {
+  color: #4F93AD;
+  border-color: #4F93AD;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.medical__btn:hover {
+  color: #F9F9F9;
+  background-color: #4F93AD;
+}
+
+.product-medical__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product-medical__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 7rem;
+}
+
+.product-medical__title {
+  color: #4F93AD;
+  letter-spacing: 0.02em;
+}
+
+.product-medical__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-medical__left-row {
+  margin-top: -10vw;
+}
+
+.product-medical__left-card::before {
+  position: absolute;
+  content: '';
+  height: 35.5vw;
+  width: 0.08vw;
+  background-color: #4F93AD;
+  margin-top: 10vw;
+  right: 50%;
+}
+
+.product-medical__right {
+  margin-left: 6vw;
+}
+
+.product-medical__bottle {
+  max-width: 25vw;
+  margin-left: -5vw;
+  margin-top: 2rem;
+}
+
+.product-medical__bottle--medical-250 {
+  max-width: 12vw;
+  margin-top: 1.3vw;
+  margin-right: 4vw;
+  margin-left: 1.1vw;
+}
+
+.product-medical__bottle--medical-1000 {
+  max-width: 18vw;
+  margin-top: -8vw;
+  margin-left: -1vw;
+  margin-right: 4vw;
+}
+
+.product-medical__bottle--medical-5000 {
+  max-width: 24vw;
+  margin-right: 4vw;
+}
+
+.product-medical__bottle-cap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4.8vw;
+}
+
+.product-medical__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 3vw;
+}
+
+.medical-card__volume {
+  margin-left: 7vw;
+  color: #C3104A;
+}
+
+.medical-card__text {
+  margin-top: -1.3vw;
+  margin-left: 2.5vw;
+}
+
+.medical-card__text-5000 {
+  margin-top: 5vw;
+}
+
+.medical-card__text--left {
+  margin-top: -1.3vw;
+}
+
+.medical-card__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30vw;
+  margin-top: 4vw;
+}
+
+.medical-card__substance {
+  color: #4F93AD;
+  opacity: 0.5;
+  font-size: 1vw;
+  margin-top: -0.2vw;
+  font-weight: 600;
+}
+
+.medical-card__subtitle {
+  color: #4F93AD;
+  font-size: 1vw;
+  max-width: 20vw;
+  margin-top: 1.6vw;
+  line-height: 1.4;
+}
+
+.medical-card__description {
+  font-size: 1vw;
+  margin-top: 1.4vw;
+  max-width: 33vw;
+  line-height: 1.4;
+  color: #707070;
+}
+
+.medical-card__title {
+  margin-top: 1vw;
+  max-width: 27vw;
+  color: #4F93AD;
+  font-size: 1.4vw;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.medical-card__btn {
+  padding: 0.6vw 2.1vw;
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: #4F93AD;
+  border: 1px solid #4F93AD;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.medical-card__btn:hover {
+  background-color: #4F93AD;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #DDDDDD;
+  margin-bottom: -16px;
+}
+
+.footer__mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -8px;
+  text-decoration: none;
+  color: #707070;
+  font-size: 13px;
+}
+
+.footer__description {
+  font-size: 13px;
+  max-width: 23rem;
+  line-height: 1.3rem;
+  color: #707070;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #707070;
+  font-size: 13px;
+  margin-right: 1rem;
+  line-height: 190.9%;
+}
+
+.footer__container {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.footer__social {
+  margin-left: 37px;
+}
+
+.footer__row--top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__row--bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3.5rem;
+}
+
+.footer__phone--link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  font-size: 13px;
+  color: #707070;
+}
+
+.footer__phone-icon {
+  margin-right: 7px;
+}
+
+.col-top__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 45px;
+}
+
+.col-bottom__center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20rem;
+  color: #707070;
+  font-size: 14px;
+}
+
+.horeca__text {
+  color: #0D3054;
+}
+
+.horeca__bootle {
+  width: 22vw;
+  margin-left: 7vw;
+}
+
+.horeca__img {
+  max-width: 26vw;
+  margin-top: 17vw;
+  margin-left: -2vw;
+}
+
+.horeca__bootle {
+  max-width: 24vw;
+  margin-left: -0.5vw;
+  margin-top: 1vw;
+}
+
+.horeca__title {
+  max-width: 32vw;
+  letter-spacing: 0.02em;
+  margin-left: 9vw;
+  line-height: 1.4;
+}
+
+.horeca__description {
+  line-height: 1.45;
+  max-width: 28vw;
+  margin-top: 2.5rem;
+  margin-left: 9vw;
+}
+
+.horeca__subtitle {
+  margin-top: -0.4vw;
+  margin-left: 9vw;
+  max-width: 20vw;
+  line-height: 1.6;
+}
+
+.horeca__btn {
+  margin-left: 9vw;
+  color: #0D3054;
+  border-color: #0D3054;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.horeca__btn:hover {
+  color: #F9F9F9;
+  background-color: #0D3054;
+}
+
+.product-horeca__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product-horeca__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 7rem;
+}
+
+.product-horeca__title {
+  color: #0D3054;
+  letter-spacing: 0.02em;
+}
+
+.product-horeca__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-horeca__left-row {
+  margin-top: -10vw;
+}
+
+.product-horeca__left-card::before {
+  position: absolute;
+  content: '';
+  height: 35.5vw;
+  width: 0.08vw;
+  background-color: rgba(47, 105, 178, 0.5);
+  margin-top: 10vw;
+  right: 50%;
+}
+
+.product-horeca__right {
+  margin-left: 6vw;
+}
+
+.product-horeca__bottle {
+  max-width: 25vw;
+  margin-left: -5vw;
+  margin-top: 2rem;
+}
+
+.product-horeca__bottle--horeca-250 {
+  max-width: 12vw;
+  margin-top: 1.3vw;
+  margin-right: 4vw;
+  margin-left: 1.1vw;
+}
+
+.product-horeca__bottle--horeca-1000 {
+  max-width: 18vw;
+  margin-top: -8vw;
+  margin-left: -1vw;
+  margin-right: 4vw;
+}
+
+.product-horeca__bottle--horeca-5000 {
+  max-width: 24vw;
+  margin-right: 4vw;
+}
+
+.product-horeca__bottle-cap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4.8vw;
+}
+
+.product-horeca__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 3vw;
+}
+
+.horeca-card__volume {
+  margin-left: 7vw;
+  color: #C3104A;
+}
+
+.horeca-card__text {
+  margin-top: -1.3vw;
+  margin-left: 2.5vw;
+}
+
+.horeca-card__text-5000 {
+  margin-top: 5vw;
+}
+
+.horeca-card__text--left {
+  margin-top: -1.3vw;
+}
+
+.horeca-card__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30vw;
+  margin-top: 4vw;
+}
+
+.horeca-card__substance {
+  color: #0D3054;
+  opacity: 0.5;
+  font-size: 1vw;
+  margin-top: -0.2vw;
+  font-weight: 600;
+}
+
+.horeca-card__subtitle {
+  color: #0D3054;
+  font-size: 1vw;
+  max-width: 20vw;
+  margin-top: 1.6vw;
+  line-height: 1.4;
+}
+
+.horeca-card__description {
+  font-size: 1vw;
+  margin-top: 1.4vw;
+  max-width: 33vw;
+  line-height: 1.4;
+  color: #707070;
+}
+
+.horeca-card__title {
+  margin-top: 1vw;
+  max-width: 27vw;
+  color: #0D3054;
+  font-size: 1.4vw;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.horeca-card__btn {
+  padding: 0.6vw 2.1vw;
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: #0D3054;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.horeca-card__btn:hover {
+  background-color: #0D3054;
+  color: #ffffff;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 38vw;
+  margin-top: 1.3vw;
+  font-weight: 600;
+}
+
+.hero__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 3vw;
+  height: 100vh;
+}
+
+.hero__text--2 {
+  margin-top: -0.4vw;
+}
+
+.hero__text--3 {
+  margin-top: 2vw;
+}
+
+.hero__title {
+  margin-top: 7vw;
+  letter-spacing: 0.02em;
+  color: #C3104A;
+  max-width: 40vw;
+}
+
+.hero__title--2 {
+  line-height: 1.4;
+}
+
+.hero__subtitle {
+  margin-top: 0;
+  line-height: 1.5;
+  color: #2F69B2;
+  max-width: 34vw;
+}
+
+.hero__subtitle--2 {
+  max-width: 47vw;
+  margin-top: -1vw;
+}
+
+.hero__subtitle--3 {
+  max-width: 47vw;
+}
+
+.hero__btn {
+  max-width: 11vw;
+  margin-top: 4vw;
+}
+
+.hero__btn:hover {
+  color: #F9F9F9;
+  background-color: #2F69B2;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-next {
+  background: url("../img/next.svg") no-repeat center;
+  right: 6vw;
+}
+
+.swiper-button-prev {
+  background: url("../img/prew.svg") no-repeat center;
+  left: 8vw;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.swiper-slide__bg-1 {
+  width: 100vw;
+  background: url("../img/bg1.jpg") no-repeat center/cover;
+}
+
+.swiper-slide__bg-2 {
+  width: 100vw;
+  background: url("../img/bg2.jpg") no-repeat center/cover;
+}
+
+.swiper-slide__bg-3 {
+  width: 100vw;
+  background: url("../img/bg3.jpg") no-repeat center/cover;
+}
+
+.description__text {
+  color: #4F93AD;
+  max-width: 15vw;
+  border-left: 0.05vw solid #4F93AD;
+  padding-left: 0.9vw;
+  letter-spacing: 0.03em;
+  margin-right: 2.5vw;
+  margin-bottom: 2vw;
+}
+
+.contacts {
+  padding-bottom: 80px;
+}
+
+.contacts__social {
+  color: #2F69B2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 260px;
+}
+
+.contacts__btn {
+  max-width: 12vw;
+  margin-top: 4vw;
+}
+
+.contacts__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contacts__title {
+  color: #2F69B2;
+}
+
+.contacts__conection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contacts__text {
+  color: #707070;
+  margin-left: 3.57rem;
+  text-decoration: none;
+}
+
+.contacts__text-phone {
+  margin-left: 3.8rem;
+}
+
+.contacts-phone {
+  margin-left: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts-location {
+  margin-left: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 26px;
+}
+
+.contacts-mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 26px;
+}
+
+.row-place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5vw;
+}
+
+.row-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.form__input {
+  padding: 0.7vw 14vw 0.7vw 0.7vw;
+  margin-bottom: 0.7vw;
+}
+
+.input {
+  font-size: 1vw;
+  border: 1px solid rgba(47, 105, 178, 0.5);
+  color: rgba(47, 105, 178, 0.5);
+}
+
+.dhz {
+  background-color: #F9F9F9;
+}
+
+.dhz__row {
+  padding-top: 6vw;
+  text-align: center;
+}
+
+.dhz__row--right {
+  margin-top: 1.7vw;
+}
+
+.dhz__row-mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dhz__title {
+  color: #2F69B2;
+  margin-top: 4rem;
+}
+
+.dhz__subtitle {
+  color: #2F69B2;
+  max-width: 24vw;
+  line-height: 1.4;
+}
+
+.dhz__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #2F69B2;
+  max-width: 50vw;
+  margin-top: 3vw;
+  line-height: 1.4;
+}
+
+.dhz__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3vw;
+  text-decoration: none;
+  color: #2F69B2;
+}
+
+.dhz__img {
+  width: 25vw;
+}
+
+.partner {
+  background-color: #fff;
+}
+
+.partner__row-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 7.2vw;
+  margin-bottom: -3.2vw;
+}
+
+.partner__row-icon:last-child {
+  margin-bottom: 0;
+}
+
+.brend {
+  background: url("../img/bg-brend.png");
+  background-size: cover;
+  background-color: #ffffff;
+  color: #2F69B2;
+  margin-top: -6.3rem;
+}
+
+.brend__description {
+  max-width: 51vw;
+  line-height: 1.45;
+}
+
+.brend__title {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.brend__row {
+  padding-top: 7.5vw;
+}
+
+.brend__row-mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.brend__row--title {
+  max-width: 51vw;
+  line-height: 1.4;
+}
+
+.brend__row--title_subtitle {
+  color: #707070;
+}
+
+.brend-sup {
+  font-size: 0.8vw;
+  top: -1.8vw;
+}
+
+.brend-sup-desc {
+  top: -0.6vw;
+  font-size: 0.4vw;
+}
+
+.card-tm {
+  font-size: 0.45vw;
+  top: -0.8vw;
+}
+
+.card__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 8rem;
+}
+
+.four-line__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  position: relative;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  margin-bottom: 10rem;
+}
+
+.four-line__card:nth-of-type(2) {
+  margin-left: 2vw;
+}
+
+.four-line__card--b::before {
+  content: '';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 1px;
+  height: 11vw;
+  background-color: #C4C4C4;
+  margin-top: 8.5vw;
+  margin-left: -2.2vw;
+}
+
+.four-line__card:first-child {
+  margin-left: 0;
+}
+
+.four-line__title {
+  font-size: 1.3vw;
+  font-weight: normal;
+  margin-top: 3.5vw;
+}
+
+.four-line__title-1 {
+  margin-top: 4vw;
+}
+
+.four-line__title-3 {
+  margin-top: 4vw;
+  margin-bottom: 3.6vw;
+  color: #4F93AD;
+}
+
+.four-line__title-4 {
+  margin-top: 3.3vw;
+  margin-bottom: 3.5vw;
+  color: #0D3054;
+}
+
+.four-line__description {
+  color: #707070;
+  max-width: 18.8vw;
+  font-size: 1vw;
+  margin-top: 2.2vw;
+  line-height: 1.4;
+}
+
+.four-line__subtitle--tm {
+  font-size: 0.6vw;
+  top: -1.2vw;
+}
+
+.description-four {
+  margin-top: -0.4vw;
+  font-size: 1.02vw;
+}
+
+.product-hands__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-hands__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 7rem;
+}
+
+.product-hands__title {
+  color: #2F69B2;
+  letter-spacing: 0.02em;
+}
+
+.product-hands__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-hands__left-card::before {
+  position: absolute;
+  content: '';
+  height: 35.5vw;
+  width: 0.08vw;
+  background-color: rgba(47, 105, 178, 0.5);
+  margin-top: 14vw;
+  right: 50%;
+}
+
+.product-hands__right {
+  margin-left: 7vw;
+}
+
+.product-hands__bottle {
+  max-width: 25vw;
+  margin-left: -5vw;
+  margin-top: 1.5rem;
+}
+
+.product-hands__bottle-80 {
+  max-width: 30vw;
+  margin-top: -4vw;
+  margin-left: -7vw;
+}
+
+.product-hands__bottle-cap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4.8vw;
+}
+
+.product-hands__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 3vw;
+}
+
+.hands-card__volume {
+  margin-left: 7vw;
+  color: #C3104A;
+}
+
+.hands-card__text {
+  margin-top: -1.5vw;
+  margin-left: 2.5vw;
+}
+
+.hands-card__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30vw;
+  margin-top: 4vw;
+}
+
+.hands-card__substance {
+  color: rgba(48, 103, 182, 0.5);
+  font-size: 1vw;
+  margin-top: -0.2vw;
+  font-weight: 600;
+}
+
+.hands-card__subtitle {
+  color: #2F69B2;
+  font-size: 1vw;
+  max-width: 20vw;
+  margin-top: 1.6vw;
+  line-height: 1.4;
+}
+
+.hands-card__description {
+  font-size: 1vw;
+  margin-top: 1.4vw;
+  max-width: 33vw;
+  line-height: 1.4;
+  color: #707070;
+}
+
+.hands-card__title {
+  color: #2F69B2;
+  font-size: 1.4vw;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.hands-card__btn {
+  padding: 0.6vw 2.1vw;
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: #2F69B2;
+}
+
+.btn-row {
+  margin-top: -1.9vw;
+  margin-bottom: 15vw;
+}
+
+.bottle-cap__position {
+  margin-bottom: 1vw;
+}
+/*# sourceMappingURL=style.css.map */
