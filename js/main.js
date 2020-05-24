@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     $(window).scroll(function() {
       var height = $(window).scrollTop();
-      if(height > -1){
+      if(height > 100){
       $('header').addClass('header__scroll');
       } else{
       $('header').removeClass('header__scroll');
@@ -74,6 +74,8 @@ $(document).ready(function () {
           
         });
 
+        new WOW().init();
+
 });
 
 $(document).ready(function(){
@@ -82,5 +84,13 @@ $(document).ready(function(){
       var t = 1200;
       var d = $(this).attr('data-href') ? $(this).attr('data-href') : $(this).attr('href');
       $('html,body').stop().animate({ scrollTop: $(d).offset().top }, t);
+  });
+});
+
+$(document).ready(function(){
+  $('#capSelect .capItem').on('click', function(){
+    var imgPath;
+    imgPath = $(this).attr('data-img-path');
+    $('#imgHolder img').attr('src', imgPath);
   });
 });
