@@ -1724,6 +1724,10 @@ body {
   margin-right: 0.3vw;
 }
 
+.map {
+  width: 43vw;
+}
+
 .dhz {
   background: #F9F9F9 url("../img/bg-dhz.jpg") no-repeat center/cover;
 }
@@ -1755,7 +1759,7 @@ body {
 .dhz__subtitle {
   max-width: 24vw;
   line-height: 1.4;
-  color: #0D3054;
+  color: #ffffff;
 }
 
 .dhz__description {
@@ -1765,7 +1769,7 @@ body {
   max-width: 50vw;
   margin-top: 3vw;
   line-height: 1.4;
-  color: #0D3054;
+  color: #ffffff;
 }
 
 .dhz__link {
@@ -1774,7 +1778,7 @@ body {
   display: flex;
   margin-top: 3vw;
   text-decoration: none;
-  color: #0D3054;
+  color: #ffffff;
 }
 
 .dhz__img {
