@@ -439,7 +439,7 @@ body {
 .header {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 0;k
   width: 100%;
   height: 120px;
   z-index: 99999;
@@ -980,7 +980,7 @@ body {
 }
 
 .medical-card__text-5000 {
-  margin-top: 5vw;
+  margin-top: 2.5vw;
 }
 
 .medical-card__text--left {
