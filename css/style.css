@@ -408,10 +408,20 @@ body {
 }
 
 .gif-out {
+  display: inline-block;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   margin-top: -14vw;
   margin-right: 20vw;
+}
+
+.bottle-cap__position {
+  max-width: 5vw;
+}
+
+.bottle-cap__position-f {
+  max-width: 4vw;
+  margin-bottom: 1vw;
 }
 
 .container {
@@ -733,6 +743,10 @@ body {
   margin-bottom: 12vw;
 }
 
+.product-home__bottle-cap--left {
+  margin-bottom: 19.7vw;
+}
+
 .product-home__card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -745,6 +759,7 @@ body {
 }
 
 .home-card__volume {
+  font-size: 1vw;
   margin-left: 7vw;
   color: #C3104A;
 }
@@ -753,8 +768,9 @@ body {
   margin-top: -1.3vw;
   margin-left: 2.5vw;
 }
-.home-card__text--5000 {
-  margin-top: 1vw;
+
+.home-card__text-5000 {
+  margin-top: -3vw;
 }
 
 .home-card__row {
@@ -973,6 +989,7 @@ body {
 }
 
 .medical-card__volume {
+  font-size: 1vw;
   margin-left: 7vw;
   color: #C3104A;
 }
@@ -983,7 +1000,7 @@ body {
 }
 
 .medical-card__text-5000 {
-  margin-top: 1vw;
+  margin-top: -1vw;
 }
 
 .medical-card__text--left {
@@ -1030,6 +1047,7 @@ body {
   max-width: 27vw;
   color: #4F93AD;
   font-size: 1.4vw;
+  line-height: 1.4;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -1317,6 +1335,7 @@ body {
 }
 
 .horeca-card__volume {
+  font-size: 1vw;
   margin-left: 7vw;
   color: #C3104A;
 }
@@ -1368,6 +1387,7 @@ body {
 .horeca-card__title {
   margin-top: 1vw;
   max-width: 27vw;
+  line-height: 1.4;
   color: #0D3054;
   font-size: 1.4vw;
   font-weight: normal;
@@ -1742,7 +1762,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 50vw;
+  max-width: 51vw;
   margin-top: 3vw;
   line-height: 1.4;
   color: #0D3054;
@@ -2041,6 +2061,7 @@ body {
 }
 
 .hands-card__volume {
+  font-size: 1vw;
   margin-left: 7vw;
   color: #C3104A;
 }
