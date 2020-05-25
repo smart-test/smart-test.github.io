@@ -566,8 +566,8 @@ body {
 }
 
 .hands__bootle {
-  width: 24vw;
-  margin-left: 0;
+  width: 15vw;
+  margin-left: 7vw;
   margin-top: 1.2rem;
 }
 
@@ -624,7 +624,7 @@ body {
 .home-and-office__bootle {
   width: 21vw;
   margin-left: 0;
-  margin-top: 0;
+  margin-top: 3vw;
 }
 
 .home-and-office__title {
@@ -714,7 +714,7 @@ body {
 }
 
 .product-home__bottle--home-500 {
-  max-width: 14vw;
+  max-width: 15vw;
   margin-right: 6vw;
   margin-left: 0.9vw;
 }
@@ -846,7 +846,7 @@ body {
 }
 
 .medical__bootle {
-  width: 15vw;
+  width: 17vw;
   margin-left: 5.5vw;
   margin-top: 2.5vw;
 }
@@ -944,15 +944,17 @@ body {
 }
 
 .product-medical__bottle--medical-250 {
-  max-width: 11.5vw;
+  max-width: 15vw;
   margin-right: 7vw;
-  margin-left: 1.7vw;
+  margin-left: 0;
+  margin-bottom: 1.3vw;
 }
 
 .product-medical__bottle--medical-1000 {
-  max-width: 17vw;
-  margin-left: -1vw;
+  max-width: 16vw;
+  margin-left: 0;
   margin-right: 4vw;
+  margin-bottom: 1.3vw;
 }
 
 .product-medical__bottle--medical-5000 {
@@ -1288,17 +1290,16 @@ body {
 }
 
 .product-horeca__bottle--horeca-250 {
-  max-width: 11.5vw;
-  margin-top: 1.3vw;
+  max-width: 14vw;
   margin-right: 7vw;
-  margin-left: 1.7vw;
+  margin-bottom: 1.3vw;
 }
 
 .product-horeca__bottle--horeca-1000 {
   max-width: 17vw;
-  margin-top: -8vw;
   margin-left: -1vw;
-  margin-right: 4vw;
+  margin-bottom: -2vw;
+  margin-right: 3vw;
 }
 
 .product-horeca__bottle--horeca-5000 {
@@ -1867,7 +1868,7 @@ body {
 
 .gif-brend {
   position: absolute;
-  left: 75px;
+  left: 58px;
   bottom: 150px;
   width: 240px;
 }
@@ -2025,15 +2026,17 @@ body {
 }
 
 .product-hands__bottle {
-  max-width: 25vw;
-  margin-left: -5vw;
+  max-width: 14vw;
+  margin-left: 0vw;
   margin-top: 2vw;
+  margin-right: 6vw;
 }
 
-.product-hands__bottle-80 {
-  max-width: 30vw;
+.product-hands__bottle-90 {
+  max-width: 15vw;
   margin-top: -3vw;
-  margin-left: -7vw;
+  margin-left: 0vw;
+  margin-right: 4vw;
 }
 
 .product-hands__bottle-cap {
@@ -2047,7 +2050,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 12vw;
+  margin-bottom: 16vw;
 }
 
 .product-hands__bottle-cap--left {
