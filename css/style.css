@@ -754,7 +754,8 @@ body {
   margin-left: 2.5vw;
 }
 .home-card__text {
-  margin-top: 1vw
+  margin-top: 1vw;
+}
 
 .home-card__row {
   display: -webkit-box;
