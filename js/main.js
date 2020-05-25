@@ -94,6 +94,6 @@ $(document).ready(function(){
     $('#imgHolder img').attr('src', imgPath);
     var textPath;
     textPath = $(this).attr('data-text-path');
-    $('#textHolder p').arrr('text', textPath);
+    $('#textHolder').arrr('textPath);
 });
 });
