@@ -1890,8 +1890,8 @@ body {
 }
 
 .four-line__icons-img:first-child {
-  -ms-flex-preferred-size: 31%;
-      flex-basis: 31%;
+  -ms-flex-preferred-size: 32%;
+      flex-basis: 32%;
 }
 
 .four-line__icons-img:nth-child(2) {
@@ -1900,8 +1900,8 @@ body {
 }
 
 .four-line__icons-img:nth-child(3) {
-  -ms-flex-preferred-size: 23.5%;
-      flex-basis: 23.5%;
+  -ms-flex-preferred-size: 22.5%;
+      flex-basis: 22.5%;
 }
 
 .four-line__icons-size {
@@ -1934,7 +1934,7 @@ body {
   height: 13vw;
   background-color: #C4C4C4;
   margin-top: 3.8vw;
-  margin-left: -1.5vw;
+  margin-left: -1.2vw;
 }
 
 .four-line__card:first-child {
@@ -1946,6 +1946,7 @@ body {
   font-weight: normal;
   line-height: 1.4;
   margin-top: 3.5vw;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
@@ -1961,7 +1962,7 @@ body {
 
 .four-line__description {
   color: #707070;
-  max-width: 18.8vw;
+  max-width: 18.4vw;
   font-size: 1vw;
   margin-top: 2.2vw;
   line-height: 1.4;
