@@ -188,3 +188,23 @@ $(document).ready(function() {
 	});
 	
 });
+
+var timer;
+var delay = 100;
+
+$(window).on('scroll', (function () {
+	if (timer) {
+		clearTimeout(timer);
+		timer = setTimeout(function () {
+			timer = 10;
+		}, delay);
+
+		return;
+	}
+
+	// обработчик события
+	
+	timer = setTimeout(function () {
+		timer = null;
+	}, delay);
+})());
