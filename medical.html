@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/popup.css">
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <title>Медицина</title>
 </head>
@@ -41,9 +42,9 @@
         <div class="product-medical__left product-medical__left-card">
           <div class="product-medical__card">
             <div class="medical-card__row">
-              <div class="product-medical__bottle--medical-250"><img src="img/gel_med_250.png" alt="Антисептик для рук"></div>
+              <div class="product-medical__bottle--medical-250"><img src="img/gel_med_250.png" alt="Антисептик для рук" class="popup-start"></div>
               <div class="product-medical__bottle-cap--left">
-                <a href="#"><img class="bottle-cap__position" src="img/crane.svg" alt="журавль"></a>
+                <div class="bottle-cap__position capItem active"><img src="img/crane.svg" alt="журавль"></div>
               </div>
             </div>
             <div class="medical-card__text medical-card__text--left">
@@ -60,11 +61,11 @@
         <div class="product-medical__right">
           <div class="product-medical__card">
             <div class="medical-card__row">
-              <div class="product-medical__bottle--medical-1000"><img src="img/med-1000-cap.png" alt="Антисептик для дома и офиса"></div>
-              <div class="product-medical__bottle-cap">
-                <a href="#"><img class="bottle-cap__position-f" src="img/fliptop-medical.svg" alt="флип топ"></a>
-                <a href="#"><img class="bottle-cap__position" src="img/cap-medical.svg" alt="крышка"></a>
-                <a href="#"><img class="bottle-cap__position" src="img/crane.svg" alt="журавль"></a>
+              <div class="product-medical__bottle--medical-1000 imgHolder" id="imgHolder"><img src="img/med-1000-cap.png" alt="Антисептик для дома и офиса" class="popup-start"></div>
+              <div class="product-medical__bottle-cap capSelect" id="capSelect">
+                <div class="bottle-cap__position-f capItem opacity" data-img-path="img/med-1000-fliptop.png"><img src="img/fliptop-medical.svg" alt="флип топ"></div>
+                <div class="bottle-cap__position capItem opacity active" data-img-path="img/med-1000-cap.png"><img src="img/cap-medical.svg" alt="крышка"></div>
+                <div class="bottle-cap__position capItem opacity" data-img-path="img/med-1000-crane.png"><img src="img/crane.svg" alt="журавль"></div>
               </div>
             </div>
             <div class="medical-card__text">
@@ -82,9 +83,9 @@
         <div class="product-medical__left product-medical__left-row">
           <div class="product-medical__card">
             <div class="medical-card__row">
-              <div class="product-medical__bottle--medical-5000"><img src="img/med-cap-5000.png" alt="Антисептик для дома и офиса"></div>
+              <div class="product-medical__bottle--medical-5000"><img src="img/med-cap-5000.png" alt="Антисептик для дома и офиса" class="popup-start"></div>
               <div class="product-medical__bottle-cap--left">
-                <a href="#"><img class="bottle-cap__position" src="img/cap-medical.svg" alt="крышка"></a>
+                <div class="bottle-cap__position capItem active"><img src="img/cap-medical.svg" alt="крышка"></div>
               </div>
             </div>
             <div class="medical-card__text medical-card__text-5000">
