@@ -395,33 +395,51 @@ body {
 
 .capItem {
   max-width: 5vw;
-}
-
-.capItem:hover {
   cursor: pointer;
 }
 
 .gif {
-  margin-top: -8vw;
-  margin-left: 18vw;
+  margin-top: -15vw;
+  margin-left: 38vw;
   width: 50vw;
+  position: absolute;
+  mix-blend-mode: multiply;
 }
 
-.gif-out {
-  display: inline-block;
+.gif--out {
+  margin-top: -15vw;
+  width: 50vw;
+  position: absolute;
+  mix-blend-mode: multiply;
+  left: 0;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
-  margin-top: -14vw;
-  margin-right: 20vw;
 }
 
 .bottle-cap__position {
   max-width: 5vw;
+  opacity: 0.5;
 }
 
 .bottle-cap__position-f {
   max-width: 4vw;
   margin-bottom: 1vw;
+  opacity: 0.5;
+}
+
+.top-scroll {
+  position: fixed;
+  z-index: 999999;
+  bottom: 4rem;
+  right: 3vw;
+}
+
+.active {
+  opacity: 1;
+}
+
+.active1 {
+  opacity: 1;
 }
 
 .container {
@@ -577,6 +595,10 @@ body {
   margin-left: -2vw;
 }
 
+.hands__img--multi {
+  mix-blend-mode: multiply;
+}
+
 .hands__title {
   letter-spacing: 0.02em;
   color: #2F69B2;
@@ -720,9 +742,10 @@ body {
 }
 
 .product-home__bottle--home-1000 {
-  max-width: 15vw;
-  margin-right: 4vw;
-  margin-left: 0.9vw;
+  max-width: 18vw;
+  margin-right: 3vw;
+  margin-left: -1vw;
+  margin-bottom: -3.5vw;
 }
 
 .product-home__bottle--home-5000 {
@@ -795,7 +818,7 @@ body {
 .home-card__subtitle {
   color: #2F69B2;
   font-size: 1vw;
-  max-width: 20vw;
+  max-width: 25vw;
   margin-top: 1.6vw;
   line-height: 1.4;
 }
@@ -1813,15 +1836,23 @@ body {
 }
 
 .brend {
-  background: url("../img/bg-brend.png");
   background-size: cover;
   background-color: #ffffff;
   color: #2F69B2;
   margin-top: -6.3rem;
 }
 
+.brend__img {
+  margin-top: 1.5vw;
+  margin-left: 1vw;
+}
+
+.brend__img-big {
+  width: 27vw;
+}
+
 .brend__description {
-  max-width: 52vw;
+  max-width: 34.2vw;
   line-height: 1.45;
 }
 
@@ -1836,6 +1867,8 @@ body {
 
 .brend__row--right {
   position: relative;
+  margin-top: -14vw;
+  width: 18vw;
 }
 
 .brend__row-mid {
@@ -1848,8 +1881,9 @@ body {
 }
 
 .brend__row--title {
-  max-width: 51vw;
+  max-width: 52vw;
   line-height: 1.4;
+  letter-spacing: 0.02em;
 }
 
 .brend__row--title_subtitle {
@@ -1866,11 +1900,15 @@ body {
   font-size: 0.4vw;
 }
 
+.gif-puck {
+  width: 20vw;
+}
+
 .gif-brend {
   position: absolute;
-  left: 58px;
-  bottom: 150px;
-  width: 240px;
+  left: 2.9vw;
+  top: 19.6vw;
+  width: 15vw;
 }
 
 .card-tm {
@@ -1887,6 +1925,14 @@ body {
           justify-content: space-between;
 }
 
+.card-text {
+  margin-right: -2vw;
+}
+
+.four-line {
+  margin-top: 8vw;
+}
+
 .four-line__icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1895,18 +1941,18 @@ body {
 }
 
 .four-line__icons-img:first-child {
-  -ms-flex-preferred-size: 32%;
-      flex-basis: 32%;
+  -ms-flex-preferred-size: 32.7%;
+      flex-basis: 32.7%;
 }
 
 .four-line__icons-img:nth-child(2) {
-  -ms-flex-preferred-size: 23.5%;
-      flex-basis: 23.5%;
+  -ms-flex-preferred-size: 24%;
+      flex-basis: 24%;
 }
 
 .four-line__icons-img:nth-child(3) {
-  -ms-flex-preferred-size: 22.5%;
-      flex-basis: 22.5%;
+  -ms-flex-preferred-size: 24%;
+      flex-basis: 24%;
 }
 
 .four-line__icons-size {
@@ -1939,7 +1985,7 @@ body {
   height: 13vw;
   background-color: #C4C4C4;
   margin-top: 3.8vw;
-  margin-left: -1.2vw;
+  margin-left: -1.7vw;
 }
 
 .four-line__card:first-child {
@@ -1951,17 +1997,17 @@ body {
   font-weight: normal;
   line-height: 1.4;
   margin-top: 3.5vw;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .four-line__title-3 {
-  margin-bottom: 3.6vw;
+  margin-bottom: 3.9vw;
   color: #4F93AD;
 }
 
 .four-line__title-4 {
-  margin-bottom: 3.5vw;
+  margin-bottom: 3.9vw;
   color: #0D3054;
 }
 
@@ -2028,7 +2074,8 @@ body {
 .product-hands__bottle {
   max-width: 14vw;
   margin-left: 0vw;
-  margin-top: 2vw;
+  margin-top: 1vw;
+  margin-bottom: -0.33vw;
   margin-right: 6vw;
 }
 
